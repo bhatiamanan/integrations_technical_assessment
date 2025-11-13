@@ -1,0 +1,16 @@
+node_modules/
+frontend/node_modules/
+backend/.venv/
+.venv/
+dump.rdb
+.env
+*.pyc
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+coverage/
+dist/
+build/
