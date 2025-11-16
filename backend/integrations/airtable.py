@@ -9,7 +9,6 @@ import base64
 import hashlib
 from dotenv import load_dotenv
 import os
-
 import requests
 from integrations.integration_item import IntegrationItem
 
