@@ -158,4 +158,5 @@ async def get_items_notion(credentials) -> list[IntegrationItem]:
             )
 
         print(list_of_integration_item_metadata)
-    return
+        return list_of_integration_item_metadata
+    return []

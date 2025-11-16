@@ -33,10 +33,12 @@ export const DataForm = ({ integrationType, credentials }) => {
             <Box display='flex' flexDirection='column' width='100%'>
                 <TextField
                     label="Loaded Data"
-                    value={loadedData || ''}
-                    sx={{mt: 2}}
+                    value={loadedData ? JSON.stringify(loadedData, null, 2) : ''}
+                    sx={{mt: 2, width: '100%'}}
                     InputLabelProps={{ shrink: true }}
                     disabled
+                    multiline
+                    rows={8}
                 />
                 <Button
                     onClick={handleLoad}
